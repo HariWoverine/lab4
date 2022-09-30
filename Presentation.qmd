@@ -1,0 +1,38 @@
+---
+title: "Markdown_presentation"
+format: revealjs
+editor: visual
+---
+
+## 
+
+## Code
+
+we have so many inbulit data set in R like cars, gampminder and so on this presentation willl give you idea of some famous ones and summary of them.
+
+## penguins summary
+
+```{r penguins}
+library(palmerpenguins)
+summary(penguins)
+```
+
+## cars summary:
+
+```{r cars}
+summary(cars)
+```
+
+## Gapminder summary:
+
+```{r gapminder}
+library(gapminder)
+summary(gapminder)
+```
+
+## flights and airport summary
+
+```{r flights}
+library(nycflights13)
+summary(flights)
+```
